@@ -7,7 +7,12 @@ class EmailAddressParser
   
   def initialize(emails)
     @emails = emails
-  
+  end
+
+  def parse
+    
+  end
+    
   email_addresses = (' ')
   parser = EmailAddressParser.new(email_addresses)
   
