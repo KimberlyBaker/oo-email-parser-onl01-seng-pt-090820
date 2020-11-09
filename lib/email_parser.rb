@@ -14,9 +14,5 @@ class EmailAddressParser
     email_array.reject! {|element| element.empty?}
     email_array
   end
-    
-  email_addresses = (' ')
-  parser = EmailAddressParser.new(email_addresses)
   
-  parser.parse
 end
